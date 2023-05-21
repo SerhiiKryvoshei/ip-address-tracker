@@ -1,8 +1,10 @@
 {
 	"name": "ip-address-tracker",
 	"version": "1.0.0",
+	"homepage": "https://serhiikryvoshei.github.io/ip-address-tracker",
 	"source": "src/index.html",
 	"scripts": {
+		"deploy": "gh-pages -d build",
 		"start": "parcel --open",
 		"build": "parcel build"
 	},
@@ -10,6 +12,7 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"gh-pages": "^5.0.0",
 		"parcel": "^2.8.3"
 	},
 	"dependencies": {
